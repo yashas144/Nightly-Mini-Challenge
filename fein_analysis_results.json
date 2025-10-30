@@ -1,0 +1,45 @@
+{
+  "video": "Travis Scott - FEIN LIVE @ CIRCUS MAXIMUS MILANO",
+  "url": "https://www.youtube.com/watch?v=L3J5DKwiVms",
+  "analysis": {
+    "duration": "49.8s",
+    "fps": 23.936,
+    "total_data_points": 596
+  },
+  "show_cues": [
+    {
+      "timestamp": "0.9s",
+      "energy_level": "0.58",
+      "suggestion": " Lighting: Blackout \u2192 Red strobe explosion on beat drop",
+      "reasoning": "Energy dip detected - 1.8s duration",
+      "context": "Build tension before next drop"
+    },
+    {
+      "timestamp": "6.0s",
+      "energy_level": "0.63",
+      "suggestion": " Pyro: Flame columns with CO2 burst, build crowd tension",
+      "reasoning": "Energy dip detected - 6.6s duration",
+      "context": "Build tension before next drop"
+    },
+    {
+      "timestamp": "10.9s",
+      "energy_level": "0.22",
+      "suggestion": " Visual: Cactus logo projection + laser grid sweep",
+      "reasoning": "Energy dip detected - 2.8s duration",
+      "context": "Build tension before next drop"
+    },
+    {
+      "timestamp": "13.5s",
+      "energy_level": "0.53",
+      "suggestion": " Lighting: Blue/purple wash, slow intensity crescendo",
+      "reasoning": "Energy dip detected - 1.7s duration",
+      "context": "Build tension before next drop"
+    }
+  ],
+  "peak_moment": {
+    "start": "24.0s",
+    "end": "34.0s",
+    "avg_energy": "2.31",
+    "description": "Peak crowd energy moment (likely FEIN drop/mosh pit)"
+  }
+}
