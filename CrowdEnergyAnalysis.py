@@ -1,6 +1,5 @@
 """
 Travis Scott - FEIN Concert Energy Analyzer
-Complete implementation for the challenge
 
 Setup:
 1. Install dependencies:
@@ -463,6 +462,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
