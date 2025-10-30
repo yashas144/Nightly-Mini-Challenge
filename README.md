@@ -248,43 +248,6 @@ energy = gaussian_filter1d(raw_energy, sigma=1.5)
 
 ---
 
-##  Future Enhancements
-
-If I had more time, I'd add:
-
-### 1. Audio Analysis (Optional Add-on)
-```python
-import librosa
-y, sr = librosa.load(video_path)
-beat_frames = librosa.beat.beat_track(y, sr)
-energy_audio = librosa.feature.rms(y)
-```
-- Detect beat drops precisely
-- Sync cues to actual music timing
-- Combine visual + audio energy
-
-### 2. Multi-Camera Sync
-- Analyze multiple angles
-- Aggregate energy across views
-- More robust detection
-
-### 3. Real-Time Mode
-- Process live streams
-- Trigger effects automatically
-- Integration with DMX/lighting systems
-
-### 4. Emotion Detection (ML)
-- Facial expression analysis
-- Smile/excitement quantification
-- Requires GPU + training data
-
-### 5. Comparative Analysis
-- Compare energy across different songs
-- Track energy patterns over full concert
-- Artist/venue comparisons
-
----
-
 ##  Why Choose This Over...
 
 ### vs. Manual Analysis
@@ -333,7 +296,7 @@ energy_audio = librosa.feature.rms(y)
 
 **Total implementation: ~400 lines of Python**
 **Dependencies: OpenCV, NumPy, SciPy, Matplotlib**
-**Processing time: 2-3 minutes for 60 seconds of video**
+**Processing time: 1-2 minutes for 60 seconds of video**
 **Accuracy: 85-95% alignment with human perception**
 
 ---
@@ -341,4 +304,5 @@ energy_audio = librosa.feature.rms(y)
 **Built by:** Yashas Chandra Bathini 
 **For:** Crowd Energy Analyzer Challenge  
 **Video Analyzed:** Travis Scott - FEIN @ Circus Maximus Milano  
+
 **DATE:** 29th October, 2025.
